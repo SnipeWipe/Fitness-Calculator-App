@@ -142,7 +142,7 @@ with col4:
 st.divider()
 col7,col8,col9,col10,col11 = st.columns(5)
 with col9:
-    st.page_link("pages\Data_Analysis.py",label="Some Analysis",icon="📊")    
+    st.page_link("pages/Data_Analysis.py",label="Some Analysis",icon="📊")    
 
   
 st.divider()
