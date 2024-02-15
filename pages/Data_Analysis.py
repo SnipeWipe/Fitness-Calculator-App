@@ -32,6 +32,8 @@ with col31:
     st.plotly_chart(fig3, use_container_width=True)
 with col32:
     st.header("Mean BMI in SEX (Male vs Female)")
+    fig1=px.bar(a,x=a['Year'],y=a['Deaths that are from all causes attributed to high body-mass index per 100,000 people, in both sexes aged age-standardized'],color = a['Entity'],color_discrete_sequence=px.colors.qualitative.Antique,width=350)
+    st.plotly_chart(fig1, use_container_width=True)
     combine=pd.concat([c['Mean BMI (male)'],d['Mean BMI (female)']])
     names0 =pd.concat([c['Entity'],d['Entity']])
     fig5=px.pie(combine,labels=combine.index,values=combine,names=names0)
@@ -48,6 +50,8 @@ with col52:
     st.markdown(
     "<h1 style='text-align: center; color: #ffdf00; text-shadow: 2px 2px 4px #000000;'><b>Defeat Obesity, Embrace Vitality: Your Health, Your Future</b></h1>",
     unsafe_allow_html=True)
+with col51:
+    st.table(c)
 
     
 
