@@ -1,6 +1,7 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
+import plotly 
 st.set_page_config(layout="wide",page_icon="📊")
 st.markdown(
     "<h1 style='text-align: center; color: #ff0000; text-shadow: 4px 4px 6px #000000;font-size: 40px'><u>Data Analysis over Obesity</u></h1>",
