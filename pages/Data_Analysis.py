@@ -32,7 +32,7 @@ with col31:
     st.plotly_chart(fig3, use_container_width=True)
 with col32:
     st.header("Mean BMI in SEX (Male vs Female)")
-    fig1=px.bar(a,x=a['Year'],y=a['Deaths that are from all causes attributed to high body-mass index per 100,000 people, in both sexes aged age-standardized'],color = a['Entity'],color_discrete_sequence=px.colors.qualitative.Antique,width=350)
+    fig=px.bar(a,x=c['Entity'],y=c['Mean BMI (male)'],color = c['Year'],color_discrete_sequence=px.colors.qualitative.Antique,width=350)
     st.plotly_chart(fig1, use_container_width=True)
     
 
