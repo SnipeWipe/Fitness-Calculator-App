@@ -112,7 +112,7 @@ with col3:
 )
     st.markdown("""
     <h3 style='display: flex; align-items: center;'> 
-        <img src="https://www.pngplay.com/wp-content/uploads/9/Girl-Weight-Loss-PNG-Photo-Image.png" style='margin-left:220px;width:250px; height:250px;'> 
+        <img src="https://www.pngplay.com/wp-content/uploads/9/Girl-Weight-Loss-PNG-Photo-Image.png" style='margin-left:200px;width:250px; height:250px;'> 
     </h3>
     """, unsafe_allow_html=True)
     st.markdown("""
