@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import math as m
 
-st.set_page_config(layout="wide",page_icon="💪")
+st.set_page_config(layout="wide",page_icon="💪",page_title="Rebuild Yourself")
 
 st.markdown(
     "<h1 style='text-align: center; color: #ff0000; text-shadow: 2px 2px 4px #000000;'><u>Rebuild Yourself</u></h1>",
