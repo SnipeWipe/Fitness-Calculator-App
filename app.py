@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import math as m
 
 st.set_page_config(layout="wide",page_icon="💪",page_title="Rebuild Yourself")
 
@@ -143,7 +142,7 @@ with col4:
 st.divider()
 col7,col8,col9,col10,col11 = st.columns(5)
 with col9:
-    st.page_link("Data_Analysis.py",label="Some Analysis",icon="📊")    
+    st.page_link("pages\Data_Analysis.py",label="Some Analysis",icon="📊")    
 
   
 st.divider()
