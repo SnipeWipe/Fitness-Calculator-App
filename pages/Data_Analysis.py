@@ -50,8 +50,7 @@ with col52:
     st.markdown(
     "<h1 style='text-align: center; color: #ffdf00; text-shadow: 2px 2px 4px #000000;'><b>Defeat Obesity, Embrace Vitality: Your Health, Your Future</b></h1>",
     unsafe_allow_html=True)
-with col51:
-    st.table(c)
+
 
     
 
