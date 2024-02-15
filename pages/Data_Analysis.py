@@ -31,7 +31,7 @@ with col31:
         fig3=px.pie(b,values=b['Deaths that are from all causes attributed to high body-mass index, in both sexes aged 15-49 years'],names=b['Entity'])
     st.plotly_chart(fig3, use_container_width=True)
 with col32:
-    st.header("Mean BMI in SEX (Male vs Female)")
+    st.header("Mean BMI in SEX (Male)")
     fig=px.bar(a,x=c['Entity'],y=c['Mean BMI (male)'],color = c['Year'],color_continuous_scale="Jet",width=350)
     st.plotly_chart(fig, use_container_width=True)
     
