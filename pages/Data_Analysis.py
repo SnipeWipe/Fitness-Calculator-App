@@ -38,8 +38,8 @@ with col32:
 
    
 st.header("Obesity in Men Vs Women")
-fig4=px.line(e,y=e['Indicator:Prevalence of obesity among adults, BMI &GreaterEqual; 30 (age-standardized estimate) (%) - Sex:Male'],x=e['Entity'])
-fig4.add_scatter(y=e['Indicator:Prevalence of obesity among adults, BMI &GreaterEqual; 30 (age-standardized estimate) (%) - Sex:Female'],x=e['Entity'],mode="lines")
+fig4=px.line(e,y=e['Indicator:Prevalence of obesity among adults, BMI &GreaterEqual; 30 (age-standardized estimate) (%) - Sex:Male'],x=e['Entity'].unique())
+fig4.add_scatter(y=e['Indicator:Prevalence of obesity among adults, BMI &GreaterEqual; 30 (age-standardized estimate) (%) - Sex:Female'],x=e['Entity'].unique(),mode="lines")
 st.plotly_chart(fig4, use_container_width=True)
 
 col51,col52,col53= st.columns(3)
