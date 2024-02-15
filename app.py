@@ -154,7 +154,7 @@ st.markdown(
   transition: text-shadow 0.3s ease;
 }
     .glow-text:hover {
-      text-shadow: 0 0 30px #ffff00, 0 0 30px #ffff00, 0 0 30px #ffff00, 0 0 40px #ffff00;
+      text-shadow: 0 0 15px #ffff00, 0 0 15px #ffff00, 0 0 15px #ffff00, 0 0 20px #ffff00;
     }
     </style>
     """,
