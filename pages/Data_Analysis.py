@@ -32,7 +32,7 @@ with col31:
     st.plotly_chart(fig3, use_container_width=True)
 with col32:
     st.header("Mean BMI in SEX (Male vs Female)")
-    fig=px.bar(a,x=c['Entity'],y=c['Mean BMI (male)'],color = c['Year'],width=350)
+    fig=px.bar(a,x=c['Entity'],y=c['Mean BMI (male)'],color = c['Year'],color_continuous_scale="Plasma",width=350)
     st.plotly_chart(fig, use_container_width=True)
     
 
